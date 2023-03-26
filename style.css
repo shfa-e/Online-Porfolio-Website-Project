@@ -1,0 +1,317 @@
+@font-face {
+   font-family: 'Cy-Grotesk-wide';
+   src: url(Cy-Grotesk-Wide-Thin.ttf);
+}
+
+@font-face {
+   font-family: 'Grotesk-Wide-Regular';
+   src: url(Grotesk-Wide-Regular.ttf);
+}
+
+@font-face {
+   font-family: 'Cy-Grotesk-Wide-Dark';
+   src: url(Cy-Grotesk-Wide-Dark.ttf);
+}
+
+@font-face {
+   font-family: 'Cy-Grotesk-Wide-Demi';
+   src: url(Cy-Grotesk-Wide-Demi.ttf);
+}
+
+
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'Grotesk-Wide-Regular', 'Cy-Grotesk-wide', sans-serif;
+}
+
+
+/*-----Nav------*/
+
+#nav-bar{
+   position: sticky;
+   top:0%;
+   z-index: 10;
+}
+
+.navbar-brand img{
+   height: 40px;
+   padding-left: 30px;
+}
+
+.navbar-nav li{
+   padding: 0 10px;
+}
+
+.navbar-nav li a{
+   float: right;
+   text-align: left;
+}
+
+#nav-bar ul li a:hover{
+   color: #007bbf !important;
+}
+
+.navbar{
+   background: #fff;
+}
+
+.navbar-toggler{
+   border: none !important;
+}
+
+.nav-link{
+   color: #414659!important;
+   font-weight: 600;
+   font-size: 16px;
+}
+
+/*-----Slider------*/
+
+#slider{
+   width: 100%;
+}
+
+.carousel-caption{
+   top: 50%;
+   transform: translateY(-50%);
+   bottom: initial !important;
+}
+
+.carousel-caption h5{
+   font-family: 'Cy-Grotesk-Wide-Dark';
+   color: #fff;
+   font-size: 72px;
+}
+
+
+/*-----About------*/
+
+#about{
+   padding-top: 65px ;
+   padding-bottom: 45px;
+   color: #555;
+   text-align: justify;
+}
+
+#about h2{
+   font-family: 'Cy-Grotesk-Wide-Demi';
+}
+
+.about-content{
+   padding-top: 20px;
+}
+
+.about-content p{
+   margin-right: 20px;
+}
+
+.skills-bar{
+   padding-top: 20px;
+}
+
+.skills-bar p{
+   margin-bottom: 6px;
+   font-weight: 600;
+}
+
+.progress-bar{
+   border-radius: 16px;
+   color: #3885c4;
+}
+
+.progress{
+   border-radius: 16px !important;
+   margin-bottom: 20px;
+}
+
+
+/*-----Gallery------*/
+
+#gallery{
+   padding-top: 65px;
+   padding-bottom: 50px;
+   color: #555;
+}
+
+h1{
+   text-align: center;
+   color: #555 !important;
+   padding-bottom: 10px;
+   font-family: 'Cy-Grotesk-Wide-Demi';
+}
+
+h1::after{
+   content: '';
+   background: #3885c4;
+   display: block;
+   height: 3px;
+   width: 170px;
+   margin: 20px auto 5px;
+}
+
+#gall{
+   line-height:0;
+   -webkit-column-count:5; /* split it into 5 columns */
+   -webkit-column-gap:5px; /* give it a 5px gap between columns */
+   -moz-column-count:5;
+   -moz-column-gap:5px;
+   column-count:5;
+   column-gap:5px;
+}
+
+#gall img {
+   width: 100% !important;
+   height: auto !important;
+   margin-bottom:5px; /* to match column gap */
+   filter: grayscale(100%);
+ }
+
+ #gall img:hover {
+   filter:none;
+ }
+
+
+
+ /*-----Price------*/
+ #price{
+   padding: 65px 0;
+   background: #efefef;
+ }
+
+ #price .row{
+   margin-top: 30px;
+ }
+
+ .single-price{
+   margin: 10px auto;
+   display: inline;
+   float: left;
+   width: 100%;
+   background-color: #fff;
+   transition: 0.5s;
+   border: 20px solid #efefef;
+   border-radius:50px;
+ }
+
+ .single-price:hover{
+   box-shadow: 0 2px 20px #333 ;
+    
+ }
+ 
+
+ .price-head{
+   background-color: #007bbf;
+   display: inline;
+   float: left;
+   padding: 10px 5px;
+   text-align: center;
+   width: 100%;
+   border: 15px solid #efefef;
+   border-radius:30px;
+ }
+
+ .price-head h2{
+   color: #fff;
+   font-size: 35px;
+   margin-bottom: 5px;
+   padding: 5px;
+ }
+
+ .price-head p{
+   color: #f7f3f3;
+   font-size: 25px;
+   font-weight: bold;
+   line-height: 30px;
+    
+ }
+
+ #price span{
+   font-size: 15px;
+ }
+
+ .price-content{
+   display: inline;
+   float: left;
+   width: 100%;
+   padding: 0 15px;
+ }
+
+ .price-content ul li{
+   border-bottom: 1px solid #efefef;
+   padding: 15px 0;
+   padding-right: 15px;
+   list-style: none;
+ }
+
+ ul li:last-child{
+   border: none;
+ } 
+
+ .fa-check-circle{
+   color: green;
+   margin-right: 10px;
+   font-size: 20px;
+ }
+
+ .fa-times-circle{
+   color: red;
+   margin-right: 10px;
+   font-size: 20px;
+ }
+
+
+
+ /*-----Contact------*/
+
+ #contact{
+   background: #efefef;
+   padding-top: 110px;
+   padding-bottom: 110px;
+   color: #777;
+ }
+
+ .contact-form{
+   padding: 15px;
+ }
+
+ .form-group{
+   padding: 5px;
+ }
+
+ .form-control{
+   border-radius: 0 !important;
+   border: none !important;
+ }
+
+ ::placeholder{
+   columns: #999 !important;
+ }
+
+
+ .follow{
+   background: #fff;
+   padding: 10px;
+   padding-right: 160px;
+   margin: 15px;
+   border: 16px solid #efefef;
+ }
+
+
+ .contact-info .fa{
+   margin: 10px;
+   color: #007bbf;
+   font-weight: bold;
+ }
+
+ /*-----Footer------*/
+ #footer{
+   background: #333;
+   color: #fff;
+   padding: 12px;
+ }
+
+ .fa-heart{
+   margin:3px ;
+   color: red;
+ }

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css'/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Project</title>
+</head>
+<body>
+
+    <section id="nav-bar">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src = "logo1.png"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#top">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">GALLERY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#price">PRICING</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact-us.html">GET IN TOUCH</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+<section>
+    <div id="slider">
+            <div id="headerSlider" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#headerSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#headerSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/3.png" class="d-block w-100" alt="Pic 1">
+                    <div class="carousel-caption">
+                      <h5>SE Studio</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/2.png" class="d-block w-100" alt="Pic 2">
+                    <div class="carousel-caption">
+                      <h5>Welcome</h5>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#headerSlider" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#headerSlider" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+          </div>
+</section>
+
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class= "col-md-6">
+            <h2>About Us</h2>
+            <div class = "about-content">
+              <p>Hi, SE Studio is a photography studio that provides the best professional photographers and photos. 
+              Our photographers will make your event stunning.
+              Our agency is known for their great services and high quality photography work. 
+              The quality and precision of our photoshoots can be a testimonial to the great caliber of our photographers. 
+              Our photography studio boasts our team of photographers who capture and render the best photos for our clients. 
+              We make sure that every client that books through our agency gets high quality and amazing photoshoots.</p>
+            </div>
+            </div>
+
+            <div class="col-md-6 skills-bar">
+                <p>Lightroom</p>
+                <div class="progress">
+                    <div class = "progress-bar" style="width: 80%;">80%</div>
+                </div>
+                 <p>Photoshop</p>
+                 <div class="progress">
+                    <div class = "progress-bar" style="width: 75%;">75%</div>
+                </div>
+                <p>Photography</p>
+                 <div class="progress">
+                    <div class = "progress-bar" style="width: 95%;">95%</div>
+                </div>
+                <p>Lighting</p>
+                 <div class="progress">
+                    <div class = "progress-bar" style="width: 85%;">85%</div>
+              </div>
+        </div>
+    </div>
+</section>
+
+<section id="gallery">
+    <div class="container">
+        <h1>Gallery</h1>
+        <div id="gall">
+            <img src="img/g1.jpg">
+            <img src="img/g2.jpg">
+            <img src="img/g3.jpg">
+            <img src="img/g5.jpg">
+            <img src="img/g12.jpg">
+            <img src="img/g6.jpg">
+            <img src="img/g7.jpg">
+            <img src="img/g8.jpg">
+            <img src="img/g9.jpg">
+            <img src="img/g10.jpg">
+            <img src="img/g11.jpg">
+            <img src="img/g13.jpg">
+            <img src="img/g4.jpg">
+            <img src="img/g14.jpg">
+            <img src="img/g15.jpg">
+            <img src="img/g16.jpg">
+        </div>
+    </div>
+</section>
+
+<section id="price">
+    <div class="container">
+        <h1>Prices</h1>
+       <div class = "row">
+        
+        <div class="col-md-4">
+          <div class = "single-price">
+            <div class ="price-head">
+              <h2>Package A</h2>
+                <p>449<span>SR</span></p>
+            </div>
+            <div class="price-content">
+              <ul>
+                <li><i class="fa fa-check-circle"></i>6 hours of event coverage</li>
+                  <li><i class="fa fa-check-circle"></i>Retouch of selected images</li>
+                  <li><i class="fa fa-times-circle"></i>Event photo session</li>
+                  <li><i class="fa fa-times-circle"></i>Online picture gallery</li>
+                  <li><i class="fa fa-times-circle"></i>A4 Photo album hard cover</li>
+                  <li><i class="fa fa-times-circle"></i>DVD slideshow</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+
+          <div class="col-md-4">
+            <div class = "single-price">
+              <div class ="price-head">
+                <h2>Package B</h2>
+                  <p>599<span>SR</span></p>
+              </div>
+              <div class="price-content">
+                <ul>
+                  <li><i class="fa fa-check-circle"></i>9 hours of event coverage</li>
+                  <li><i class="fa fa-check-circle"></i>Retouch of selected images</li>
+                  <li><i class="fa fa-check-circle"></i>Event photo session</li>
+                  <li><i class="fa fa-check-circle"></i>Online picture gallery</li>
+                  <li><i class="fa fa-times-circle"></i>A4 Photo album hard cover</li>
+                  <li><i class="fa fa-times-circle"></i>DVD slideshow</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class = "single-price">
+              <div class ="price-head">
+                <h2>Package C</h2>
+                  <p>699<span>SR</span></p>
+              </div>
+              <div class="price-content">
+                <ul>
+                  <li><i class="fa fa-check-circle"></i>12 hours of event coverage</li>
+                  <li><i class="fa fa-check-circle"></i>Retouch of selected images</li>
+                  <li><i class="fa fa-check-circle"></i>Event photo session</li>
+                  <li><i class="fa fa-check-circle"></i>Online picture gallery</li>
+                  <li><i class="fa fa-check-circle"></i>A4 Photo album hard cover</li>
+                  <li><i class="fa fa-check-circle"></i>DVD slideshow</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          
+
+        </div>
+    </div> 
+</section>
+
+<section id="footer">
+  <div class="container text-center">
+    <p>Made with <i class="fa fa-heart"></i> by Shefaa Eidaroos</p>
+  </div>
+
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
